@@ -38,7 +38,7 @@
                         icon
                         href="http://www.sut.ac.th/"
                       >
-                        <v-icon small color="deep-orange lighten-2"
+                        <v-icon small color="indigo"
                           >fas fa-link</v-icon
                         >
                       </v-btn>
@@ -65,7 +65,7 @@
                         icon
                         href="http://www.kanchana.ac.th/"
                       >
-                        <v-icon small color="deep-orange lighten-2"
+                        <v-icon small color="indigo"
                           >fas fa-link</v-icon
                         >
                       </v-btn>

@@ -25,7 +25,7 @@
             <v-list nav dense>
               <v-list-item-group
                 v-model="group"
-                active-class="deep-orange --text text--lighten-2"
+                active-class="indigo --text text--lighten-2"
               >
                 <v-list-item
                   v-for="header in header"
