@@ -29,15 +29,15 @@
                 }"
               >
                 <v-row class="justify-center">
-                  <v-avatar id="imgProfile" size="70%">
-                    <v-img src="@/assets/jscc.png"></v-img>
+                  <v-avatar id="imgProfile" size="75%">
+                    <v-img src="@/assets/jscc2.jpg"></v-img>
                   </v-avatar>
                 </v-row>
               </v-lazy>
               <v-row>
                 <v-col>
                   <h4 class="text-md-left">
-                    <v-icon color="deep-orange lighten-2"
+                    <v-icon color="indigo"
                       >fas fa-map-marker-alt</v-icon
                     >
                     Bangkok, THAILAND
@@ -47,7 +47,7 @@
               <v-row>
                 <v-col>
                   <h4 class="text-md-left">
-                    <v-icon color="deep-orange lighten-2"
+                    <v-icon color="indigo"
                       >fas fa-envelope</v-icon
                     >
                     jirayut_ssww@hotmail.com
@@ -65,7 +65,7 @@
               <h2 class="text-md-left">My name is</h2>
               <h1 class="text-md-left">Jirayut Srisawangwong.</h1>
               <h2 class="text-md-left">My nickname is Farm.</h2>
-              <h2 class="text-md-left">I'm 23 years old.</h2>
+              <h2 class="text-md-left">I'm 24 years old.</h2>
               <br />
               <div class="col-md-12" align="center">
                 <ul class="social-network social-circle">
