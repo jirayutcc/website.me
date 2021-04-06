@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Start from '../views/Start.vue'
 import Home from '../views/Home.vue'
 import Education from '../components/Education.vue'
 import Experience from '../components/Experience.vue'
@@ -11,6 +12,11 @@ Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
+    name: 'Start',
+    component: Start
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   },
