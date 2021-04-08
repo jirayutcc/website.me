@@ -17,7 +17,12 @@
           elevation="12"
         >
           <v-card-title id="title">
-            EXPERIENCE
+            <v-avatar class="d-none d-sm-flex" tile size="50%">
+              <v-img src="@/assets/nav/experience.png"></v-img>
+            </v-avatar>
+            <v-avatar class="d-flex d-sm-none" tile size="100%">
+              <v-img src="@/assets/nav/experience.png"></v-img>
+            </v-avatar>
           </v-card-title>
           <v-row class="justify-center">
             <v-col cols="12" md="9">

@@ -17,7 +17,13 @@
           elevation="12"
         >
           <v-card-title id="title">
-            EDUCATION
+            <v-avatar class="d-none d-sm-flex" tile size="45%">
+              <v-img src="@/assets/nav/education.png"></v-img>
+            </v-avatar>
+
+            <v-avatar class="d-flex d-sm-none" tile size="100%">
+              <v-img src="@/assets/nav/education.png"></v-img>
+            </v-avatar>
           </v-card-title>
           <v-row class="justify-center">
             <v-col cols="12" md="9">
@@ -38,9 +44,7 @@
                         icon
                         href="http://www.sut.ac.th/"
                       >
-                        <v-icon small color="indigo"
-                          >fas fa-link</v-icon
-                        >
+                        <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
                     </v-card-title>
                     <v-card-subtitle>2015-2019 </v-card-subtitle>
@@ -65,9 +69,7 @@
                         icon
                         href="http://www.kanchana.ac.th/"
                       >
-                        <v-icon small color="indigo"
-                          >fas fa-link</v-icon
-                        >
+                        <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
                     </v-card-title>
                     <v-card-subtitle>2013-2015</v-card-subtitle>

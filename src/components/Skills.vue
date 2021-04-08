@@ -17,7 +17,12 @@
           elevation="12"
         >
           <v-card-title id="title">
-            SKILLS
+            <v-avatar class="d-none d-sm-flex" tile size="30%">
+              <v-img src="@/assets/nav/skills.png"></v-img>
+            </v-avatar>
+            <v-avatar class="d-flex d-sm-none" tile size="100%">
+              <v-img src="@/assets/nav/skills.png"></v-img>
+            </v-avatar>
           </v-card-title>
           <v-tabs vertical class="d-none d-md-flex" color="indigo">
             <v-tab v-for="tabSkill in tabSkills" :key="tabSkill.tab">

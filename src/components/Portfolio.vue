@@ -17,7 +17,12 @@
           elevation="12"
         >
           <v-card-title id="title">
-            PORTFOLIO
+            <v-avatar class="d-none d-sm-flex" tile size="45%">
+              <v-img src="@/assets/nav/portfolio.png"></v-img>
+            </v-avatar>
+            <v-avatar class="d-flex d-sm-none" tile size="100%">
+              <v-img src="@/assets/nav/portfolio.png"></v-img>
+            </v-avatar>
           </v-card-title>
 
           <v-tabs v-model="tab" color="indigo" class="d-none d-md-flex">
