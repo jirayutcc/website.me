@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <v-container>
+      <v-container id="nav" v-if="this.$route.path != '/'">
         <div id="home">
           <nav>
             <ul class="d-none d-md-flex">
@@ -54,7 +54,7 @@ export default {
     drawer: false,
     group: null,
     header: [
-      { name: "ABOUT", link: "/" },
+      { name: "ABOUT", link: "/home" },
       { name: "EDUCATION", link: "/education" },
       { name: "EXPERIENCE", link: "/experience" },
       { name: "SKILLS", link: "/skills" },
@@ -79,8 +79,13 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-family: "Nunito", sans-serif;
 }
 
+#nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 #app {
-  background-image: url("./assets/graphicsbuilding.jpg");
+  background-image: url("./assets/background/bgPixel2.jpg");
   background-size: cover;
 }
 
