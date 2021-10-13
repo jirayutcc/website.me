@@ -67,7 +67,7 @@
               <h2 class="text-md-left">My name is</h2>
               <h1 class="text-md-left">Jirayut Srisawangwong.</h1>
               <h2 class="text-md-left">My nickname is Farm.</h2>
-              <h2 class="text-md-left">I'm 24 years old.</h2>
+              <h2 class="text-md-left">I'm 25 years old.</h2>
               <br />
               <div class="col-md-12" align="center">
                 <ul class="social-network social-circle">
@@ -80,7 +80,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/farmhouse.fh"
+                      href="https://www.instagram.com/farmhouse.js"
                       class="icoIg"
                       ><v-icon>fab fa-instagram</v-icon></a
                     >

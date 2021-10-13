@@ -47,7 +47,7 @@
                         <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
                     </v-card-title>
-                    <v-card-subtitle>2015-2019 </v-card-subtitle>
+                    <v-card-subtitle>2015 - 2019 </v-card-subtitle>
                     <v-card-text
                       >Computer <br class="break-400" />Engineering
                     </v-card-text>
@@ -72,9 +72,9 @@
                         <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
                     </v-card-title>
-                    <v-card-subtitle>2013-2015</v-card-subtitle>
+                    <v-card-subtitle>2013 - 2015</v-card-subtitle>
                     <v-card-text
-                      >Mathematics-Science <br class="break-460" />program
+                      >Mathematics - Science <br class="break-460" />program
                     </v-card-text>
                   </v-card>
                 </v-timeline-item>
