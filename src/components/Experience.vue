@@ -30,6 +30,23 @@
                 <v-timeline-item large>
                   <template v-slot:icon>
                     <v-avatar>
+                      <img src="@/assets/Accenture.png" />
+                    </v-avatar>
+                  </template>
+                  <v-card id="sub-card" class="mx-auto" elevation="2">
+                    <v-card-title
+                      >Accenture
+                    </v-card-title>
+                    <v-card-subtitle>2021 - Persent</v-card-subtitle>
+                    <v-card-text
+                      >Backend <br class="break-370" />
+                      Developer
+                    </v-card-text>
+                  </v-card>
+                </v-timeline-item>
+                <v-timeline-item large>
+                  <template v-slot:icon>
+                    <v-avatar>
                       <img src="@/assets/CUBE.jpg" />
                     </v-avatar>
                   </template>
@@ -38,7 +55,7 @@
                       >Cube <br class="break-400" />SoftTech
                       <br class="break-500" />Co, Ltd.
                     </v-card-title>
-                    <v-card-subtitle>2019-PERSENT</v-card-subtitle>
+                    <v-card-subtitle>2019 - 2021</v-card-subtitle>
                     <v-card-text
                       >Java <br class="break-370" />
                       Developer
@@ -56,7 +73,7 @@
                       >Cube <br class="break-400" />SoftTech
                       <br class="break-500" />Co, Ltd.
                     </v-card-title>
-                    <v-card-subtitle>2018-2019 (internship)</v-card-subtitle>
+                    <v-card-subtitle>2018 - 2019 (Internship)</v-card-subtitle>
                     <v-card-text
                       >Java <br class="break-370" />
                       Developer
