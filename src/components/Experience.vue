@@ -30,6 +30,23 @@
                 <v-timeline-item large>
                   <template v-slot:icon>
                     <v-avatar>
+                      <img src="@/assets/itone.png" />
+                    </v-avatar>
+                  </template>
+                  <v-card id="sub-card" class="mx-auto" elevation="2">
+                    <v-card-title
+                      >IT One
+                    </v-card-title>
+                    <v-card-subtitle>2022 - Persent</v-card-subtitle>
+                    <v-card-text
+                      >Backend <br class="break-370" />
+                      Developer
+                    </v-card-text>
+                  </v-card>
+                </v-timeline-item>
+                <v-timeline-item large>
+                  <template v-slot:icon>
+                    <v-avatar>
                       <img src="@/assets/Accenture.png" />
                     </v-avatar>
                   </template>
@@ -37,7 +54,7 @@
                     <v-card-title
                       >Accenture
                     </v-card-title>
-                    <v-card-subtitle>2021 - Persent</v-card-subtitle>
+                    <v-card-subtitle>2021 - 2022</v-card-subtitle>
                     <v-card-text
                       >Backend <br class="break-370" />
                       Developer
