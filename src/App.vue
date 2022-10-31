@@ -85,7 +85,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #app {
-  background-image: url("./assets/background/bgPixel2.jpg");
+  background-image: url("./assets/background/bgPixelGif1.gif");
   background-size: cover;
 }
 
