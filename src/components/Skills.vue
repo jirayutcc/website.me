@@ -53,7 +53,14 @@
             <v-tab-item>
               <v-card flat id="item" align="center">
                 <v-avatar tile size="92%">
-                  <img src="@/assets/tools.png" />
+                  <img src="@/assets/ci.png" />
+                </v-avatar>
+              </v-card>
+            </v-tab-item>
+            <v-tab-item>
+              <v-card flat id="item" align="center">
+                <v-avatar tile size="92%">
+                  <img src="@/assets/databases.png" />
                 </v-avatar>
               </v-card>
             </v-tab-item>
@@ -86,9 +93,17 @@
               </v-col>
               <v-col cols="12">
                 <v-card id="item" align="center">
-                  <h3 class="text-center">🧰 Tools</h3>
+                  <h3 class="text-center">⚒️ Continuous integration</h3>
                   <v-avatar tile size="92%">
-                    <img src="@/assets/tools.png" />
+                    <img src="@/assets/ci.png" />
+                  </v-avatar>
+                </v-card>
+              </v-col>
+              <v-col cols="12">
+                <v-card id="item" align="center">
+                  <h3 class="text-center">🧰 Databases</h3>
+                  <v-avatar tile size="92%">
+                    <img src="@/assets/databases.png" />
                   </v-avatar>
                 </v-card>
               </v-col>
@@ -107,7 +122,8 @@ export default {
     tabSkills: [
       { tab: "😎 Programming Language" },
       { tab: "🤖 Framework & Libraries" },
-      { tab: "🧰 Tools" },
+      { tab: "⚒️ Continuous integration" },
+      { tab: "🧰 Databases" },
     ],
     languages: [
       { name: "Java", exp: 70, levels: "Advanced" },
