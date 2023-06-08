@@ -66,8 +66,8 @@
               <h1 class="text-md-left">Hello.</h1>
               <h2 class="text-md-left">My name is</h2>
               <h1 class="text-md-left">Jirayut Srisawangwong.</h1>
-              <h2 class="text-md-left">My nickname is Farm.</h2>
-              <h2 class="text-md-left">I'm 25 years old.</h2>
+              <h2 class="text-md-left">My nickname is Farmhouse.</h2>
+              <h2 class="text-md-left">I'm 27 years old.</h2>
               <br />
               <div class="col-md-12" align="center">
                 <ul class="social-network social-circle">
@@ -75,6 +75,7 @@
                     <a
                       href="https://www.facebook.com/jirayutcc"
                       class="icoFacebook"
+                      target="_blank" rel="noopener noreferrer"
                       ><v-icon>fab fa-facebook-f</v-icon></a
                     >
                   </li>
@@ -82,6 +83,7 @@
                     <a
                       href="https://www.instagram.com/farmhouse.js"
                       class="icoIg"
+                      target="_blank" rel="noopener noreferrer"
                       ><v-icon>fab fa-instagram</v-icon></a
                     >
                   </li>
@@ -89,11 +91,15 @@
                     <a
                       href="https://www.linkedin.com/in/jirayutcc"
                       class="icoLinkedin"
+                      target="_blank" rel="noopener noreferrer"
                       ><v-icon>fab fa-linkedin</v-icon></a
                     >
                   </li>
                   <li>
-                    <a href="https://github.com/jirayutcc" class="icoGithub"
+                    <a 
+                      href="https://github.com/jirayutcc" 
+                      class="icoGithub"
+                      target="_blank" rel="noopener noreferrer"
                       ><v-icon>fab fa-github</v-icon></a
                     >
                   </li>
