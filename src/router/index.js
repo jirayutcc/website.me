@@ -6,6 +6,7 @@ import Education from '../components/Education.vue'
 import Experience from '../components/Experience.vue'
 import Skills from '../components/Skills.vue'
 import Portfolio from '../components/Portfolio.vue'
+import Certificate from '../components/Certificate.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ Vue.use(VueRouter)
     path: '/portfolio',
     name: 'Portfolio',
     component: Portfolio
+  },
+  {
+    path: '/certificate',
+    name: 'Certificate',
+    component: Certificate
   }
 ]
 
