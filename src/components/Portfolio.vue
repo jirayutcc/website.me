@@ -53,23 +53,25 @@
                     ></v-carousel-item>
                   </v-carousel>
                   <v-row id="link" align="center" justify="center">
-                    <a
+                    <v-btn
                       v-for="(image, i) in tabPortfolio.githubLink"
                       :key="i"
                       :href="image.link"
-                      ><v-icon align="center" color="indigo"
-                        >fab fa-github</v-icon
-                      ></a
+                      icon
+                      target="_blank" rel="noopener noreferrer"
                     >
+                      <v-icon align="center" color="indigo">fab fa-github</v-icon>
+                    </v-btn>
                     <div class="mx-2"></div>
-                    <a
+                    <v-btn
                       v-for="(image, i) in tabPortfolio.live"
                       :key="i"
                       :href="image.live"
-                      ><v-icon align="center" color="indigo"
-                        >fas fa-globe-americas</v-icon
-                      ></a
+                      icon
+                      target="_blank" rel="noopener noreferrer"
                     >
+                      <v-icon align="center" color="indigo">fas fa-globe-americas</v-icon>
+                    </v-btn>
                   </v-row>
                 </v-card>
               </v-tab-item>
@@ -96,23 +98,25 @@
                     </v-row>
                   </v-avatar>
                   <v-row id="link" align="center" justify="center">
-                    <a
+                    <v-btn
                       v-for="(image, i) in tabPortfolio.githubLink"
                       :key="i"
                       :href="image.link"
-                      ><v-icon align="center" color="indigo"
-                        >fab fa-github</v-icon
-                      ></a
+                      icon
+                      target="_blank" rel="noopener noreferrer"
                     >
+                      <v-icon align="center" color="indigo">fab fa-github</v-icon>
+                    </v-btn>
                     <div class="mx-2"></div>
-                    <a
+                    <v-btn
                       v-for="(image, i) in tabPortfolio.live"
                       :key="i"
                       :href="image.live"
-                      ><v-icon align="center" color="indigo"
-                        >fas fa-globe-americas</v-icon
-                      ></a
+                      icon
+                      target="_blank" rel="noopener noreferrer"
                     >
+                      <v-icon align="center" color="indigo">fas fa-globe-americas</v-icon>
+                    </v-btn>
                   </v-row>
                 </v-card>
               </v-col>
@@ -139,7 +143,7 @@ export default {
         ],
         live: [
           {
-            live: "https://convid19trackerweb.herokuapp.com/",
+            live: "https://convid19trackerweb.netlify.app",
           },
         ],
         images: [
@@ -173,6 +177,19 @@ export default {
           },
         ],
       },
+      {
+        tab: "💐 Handmade Jipatha",
+        live: [
+          {
+            live: "https://handmadejipatha.netlify.app",
+          },
+        ],
+        images: [
+          {
+            src: require("@/assets/handmadejipatha.jpg"),
+          },
+        ],
+      },
     ],
   }),
 };
@@ -199,7 +216,8 @@ $gutters: 24px;
 
 #link {
   padding: 0px;
-  padding-top: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #item {

@@ -24,6 +24,7 @@
               <v-img src="@/assets/nav/skills.png"></v-img>
             </v-avatar>
           </v-card-title>
+          
           <v-tabs vertical class="d-none d-md-flex" color="indigo">
             <v-tab v-for="tabSkill in tabSkills" :key="tabSkill.tab">
               {{ tabSkill.tab }}
