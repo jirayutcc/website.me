@@ -43,6 +43,7 @@
                         class="d-none d-sm-flex"
                         icon
                         href="http://www.sut.ac.th/"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
@@ -68,6 +69,7 @@
                         class="d-none d-sm-flex"
                         icon
                         href="http://www.kanchana.ac.th/"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <v-icon small color="indigo">fas fa-link</v-icon>
                       </v-btn>
