@@ -24,6 +24,7 @@
               <v-img src="@/assets/nav/experience.png"></v-img>
             </v-avatar>
           </v-card-title>
+          
           <v-row class="justify-center">
             <v-col cols="12" md="9">
               <v-timeline dense>
