@@ -9,10 +9,17 @@
                 <router-link id="header" :to="header.link"> {{ header.name }} </router-link>
               </li>
             </ul>
-            <v-app-bar-nav-icon
-              class="d-flex d-md-none"
-              @click.stop="drawer = !drawer"
-            ></v-app-bar-nav-icon>
+            <row id="nav-icon" class="d-flex d-md-none">
+              <v-col cols="1">
+                <v-app-bar-nav-icon id="nav-icon"
+                  icon
+                  @click.stop="drawer = !drawer"
+                ></v-app-bar-nav-icon>
+              </v-col>
+              <v-col id="menu-text" class="d-none d-sm-flex">
+                <h2 class="text-md-left">MENU</h2>
+              </v-col>
+            </row>
           </nav>
 
           <v-navigation-drawer
@@ -54,11 +61,12 @@ export default {
     drawer: false,
     group: null,
     header: [
-      { name: "ABOUT", link: "/home" },
+      { name: "ABOUT", link: "/home", img: require("@/assets/nav/about.png") },
       { name: "EDUCATION", link: "/education" },
       { name: "EXPERIENCE", link: "/experience" },
       { name: "SKILLS", link: "/skills" },
       { name: "PORTFOLIO", link: "/portfolio" },
+      { name: "CERTIFICATE", link: "/certificate" },
     ],
   }),
   watch: {
@@ -71,7 +79,7 @@ export default {
 
 <style lang="scss" scoped>
 $duration: 0.2s;
-$distance: 8px;
+$distance: 9px;
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 * {
@@ -82,6 +90,15 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 #nav {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+#nav-icon {
+  color: #ffffff;
+  padding-left: 0px;
+}
+
+#menu-text {
+  padding-left: 0px;
 }
 
 #app {
