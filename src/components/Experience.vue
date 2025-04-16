@@ -50,8 +50,9 @@
                                             >2024 - Persent</v-card-subtitle
                                         >
                                         <v-card-text
-                                            >IT <br class="break-370" />
-                                            Specialist
+                                            >Senior <br class="break-370" />
+                                            Software 
+                                            Developer (ERP)
                                         </v-card-text>
                                     </v-card>
                                 </v-timeline-item>
